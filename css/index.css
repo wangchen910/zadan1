@@ -113,7 +113,7 @@ body{
 .go{
     width: 2.34rem;
     height: .59rem;
-    position: absolute;
+    position: fixed;
     bottom: .8rem;
     left:0;
     right: 0;
