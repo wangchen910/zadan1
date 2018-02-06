@@ -23,22 +23,27 @@ setInterval(function () {
         a=0
     }
 },2000)
-
+function go(){
+    location.href="heci.html";
+}
 jd1.onclick=function () {
     jd.style.display='none';
     Openegg.style.display='block'
     Jinghua.style.display='block'
     Guangxian.style.display='block'
+    setInterval(go,1000)
 }
 jd2.onclick=function () {
     jd.style.display='none';
     Openegg.style.display='block'
     Jinghua.style.display='block'
     Guangxian.style.display='block'
+    setInterval(go,1000)
 }
 jd3.onclick=function () {
     jd.style.display='none';
     Openegg.style.display='block'
     Jinghua.style.display='block'
     Guangxian.style.display='block'
+    setInterval(go,1000)
 }
