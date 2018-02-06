@@ -1,0 +1,185 @@
+/* animation 
+.a-bounce,.a-flip,.a-flash,.a-shake,.a-swing,.a-wobble,.a-ring{
+    -webkit-animation:1s ease;
+    -moz-animation:1s ease;
+    -ms-animation:1s ease;
+    animation:1s ease;}
+.a-fadein,.a-fadeinT,.a-fadeinR,.a-fadeinB,.a-fadeinL,.a-bounceinT,.a-bounceinR,.a-bounceinB,.a-bounceinL,.a-rotatein,.a-rotateinLT,.a-rotateinLB,.a-rotateinRT,.a-rotateinRB,.a-flipin,.a-flipinX,.a-flipinY{
+    -webkit-animation:1s ease-out backwards;
+    -moz-animation:1s ease-out backwards;
+    -ms-animation:1s ease-out backwards;
+    animation:1s ease-out backwards;
+}
+*/
+/* 弹入 一次*/
+.a-bouncein{
+    -webkit-animation:1s ease-in forwards;
+    -moz-animation:1s ease-in forwards;
+    -ms-animation:1s ease-in forwards;
+    animation:1s ease-in forwards;
+}
+/* 弹入 永久*/
+.a-bouncein-forever {
+    -webkit-animation:1s infinite linear;
+    -moz-animation:1s infinite linear;
+    -ms-animation:1s infinite linear;
+    animation:1s infinite linear;
+}
+
+/* 弹入 公用*/
+.a-bouncein,.a-bouncein-forever{
+    -webkit-animation-name:bouncein;
+    -moz-animation-name:bouncein;
+    -ms-animation-name:bouncein;
+    animation-name:bouncein;
+
+}
+
+
+.cloudBigSmall{
+    -webkit-animation:3s infinite linear;
+    -moz-animation:3s infinite linear;
+    -ms-animation:3s infinite linear;
+    animation:3s infinite linear;
+
+    -webkit-animation-name:bigsmall;
+    -moz-animation-name:bigsmall;
+    -ms-animation-name:bigsmall;
+    animation-name:bigsmall;
+
+    
+}
+
+.top-bottom{
+    
+    -webkit-animation:3s infinite linear;
+    -moz-animation:3s infinite linear;
+    -ms-animation:3s infinite linear;
+    animation:3s infinite linear;
+
+    -webkit-animation-name:topbottom;
+    -moz-animation-name:topbottom;
+    -ms-animation-name:topbottom;
+    animation-name:topbottom;
+}
+
+.down-up{
+    -webkit-animation:3s ease;
+    -moz-animation:3s ease;
+    -ms-animation:3s ease;
+    animation:3s ease;
+
+    -webkit-animation-name:downup;
+    -moz-animation-name:downup;
+    -ms-animation-name:downup;
+    animation-name:downup;
+}
+
+
+/* 弹入 */
+@-webkit-keyframes bouncein{
+    0%{opacity:0;-webkit-transform:scale(0.3);}
+    50%{opacity:1;-webkit-transform:scale(1.05);}
+    70%{-webkit-transform:scale(0.9);}
+    100%{-webkit-transform:scale(1);}
+}
+@-moz-keyframes bouncein{
+    0%{opacity:0;-moz-transform:scale(0.3);}
+    50%{opacity:1;-moz-transform:scale(1.05);}
+    70%{-moz-transform:scale(0.9);}
+    100%{-moz-transform:scale(1);}
+}
+@-ms-keyframes bouncein{
+    0%{opacity:0;-ms-transform:scale(0.3);}
+    50%{opacity:1;-ms-transform:scale(1.05);}
+    70%{-ms-transform:scale(0.9);}
+    100%{-ms-transform:scale(1);}
+}
+@keyframes bouncein{
+    0%{opacity:0;transform:scale(0.3);}
+    50%{opacity:1;transform:scale(1.05);}
+    70%{transform:scale(0.9);}
+    100%{transform:scale(1);}
+}
+/* 弹入end */
+
+/* 放大缩小 */
+
+@-webkit-keyframes bigsmall{
+    0%{-webkit-transform:scale(1);}   
+    50%{-webkit-transform:scale(1.2);}
+    100%{-webkit-transform:scale(1);}
+    
+}
+@-moz-keyframes bigsmall{
+    0%{-moz-transform:scale(1);}
+    50%{-moz-transform:scale(1.2);}
+    100%{-moz-transform:scale(1);}
+   
+}
+@-ms-keyframes bigsmall{
+    0%{-ms-transform:scale(1);}
+    50%{-ms-transform:scale(1.2);}
+    100%{-ms-transform:scale(1);}
+    
+}
+@keyframes bigsmall{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.2);}
+    100%{transform:scale(1);}
+   
+}
+
+/* 放大缩小end */
+
+/* 上下移动 */
+
+@-webkit-keyframes topbottom{
+    0%{-webkit-transform:translateY(0px);}   
+    50%{-webkit-transform:translateY(-20px);}  
+    100%{-webkit-transform:translateY(0px);}
+    
+}
+@-moz-keyframes topbottom{
+    0%{-moz-transform:translateY(0px);}
+    50%{-webkit-transform:translateY(-20px);}  
+    100%{-moz-transform:translateY(0px);}
+   
+}
+@-ms-keyframes topbottom{
+    0%{-ms-transform:translateY(0px);}
+    50%{-webkit-transform:translateY(-20px);}  
+    100%{-ms-transform:translateY(0px);}
+    
+}
+@keyframes topbottom{
+    0%{transform:translateY(0px);}
+    50%{-webkit-transform:translateY(-20px);}  
+    100%{transform:translateY(0px);}
+   
+}
+
+/* 上下移动end */
+
+/* 从下往上升起 */
+
+@-webkit-keyframes downup{
+    0%{-webkit-transform:translateY(+58.8vh);}   
+    100%{-webkit-transform:translateY(0);}
+    
+}
+@-moz-keyframes downup{
+    0%{-moz-transform:translateY(+58.8vh);}
+    100%{-moz-transform:translateY(0);}
+   
+}
+@-ms-keyframes downup{
+    0%{-ms-transform:translateY(+58.8vh);}
+    100%{-ms-transform:translateY(0);}
+    
+}
+@keyframes downup{
+    0%{transform:translateY(+58.8vh);}
+    100%{transform:translateY(0);}
+   
+}
