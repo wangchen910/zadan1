@@ -147,3 +147,72 @@ img{
 .bofang img{
     float: left;
 }
+.baoli{
+    width: 1.72rem;
+    height: .28rem;
+    position: absolute;
+    top: 2.57rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.baoli img{
+    float: left;
+}
+.zhanshiye{
+    width: 3.77rem;
+    height: 2.13rem;
+    position: absolute;
+    top: 2.94rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.bainian{
+    width: 3.15rem;
+    height: .26rem;
+    position: absolute;
+    top: 5.15rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.bainian img{
+    float: left;
+}
+.baoli_2{
+    display: none;
+}
+.renwu{
+    width: 1.68rem;
+    height: 3rem;
+    position: absolute;
+    top: 2.52rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.zhucibj{
+    width: 3.36rem;
+    height: 1.19rem;
+    position: absolute;
+    top: 4.43rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.bainian_2{
+    width: 2.47rem;
+    height: .63rem;
+    position: absolute;
+    top: 4.7rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.bainian_2 img{
+    float: left;
+}
+.baoli_3{
+    display: none;
+}

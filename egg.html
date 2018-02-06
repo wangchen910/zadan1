@@ -56,8 +56,33 @@
     <div class="jinghua"><img src="img/jinghua.png" alt=""></div>
     <div class="guangxian"><img src="img/guangxian.png" alt=""></div>
     <div class="anniu a-bouncein-forever"><img src="img/button.png" alt=""></div>
+    <p class="hammer cloudBigSmall" id="hammer"><img src="img/chuizi.png" alt=""></p>
 </div>
 </body>
+<script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/rem.js"></script>
 <script src="js/egg.js"></script>
+<script>
+    $(".box").click(function() {
+        var posL = $(this).position().left + $(this).width();
+        $("#hammer").show().css('left', posL);
+    })
+    $(".box").click(function() {
+        $(this).children("div").hide();
+        eggClick($(this));
+    });
+    function eggClick(obj) {
+        var _this = obj;
+            _this.unbind('click'); //解除click
+            $(".hammer").css({"top":_this.position().top-55,"left":_this.position().left+185});
+            $(".hammer").animate({//锤子动画
+                    "top":_this.position().top-25,
+                    "left":_this.position().left+125
+                },30,function(){
+                    $('.resultTip').css({display:'block',top:'10px',left:_this.position().
+                        left+45,opacity:0});
+                }
+            );
+    }
+</script>
 </html>

@@ -243,3 +243,12 @@ img{
         transform: translate(0,0);
     }
 }
+.hammer{
+    width: 1.67rem;
+    height: 1.82rem;
+    position: absolute;
+    top: 5.87rem;
+    right: .34rem;
+    z-index: 999;
+    transition: 1s all;
+}
