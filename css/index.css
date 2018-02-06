@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow: hidden;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.logo{
+    width: 2.35rem;
+    height: .29rem;
+    position: absolute;
+    top: .18rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.logo img{
+    float: left;
+}
+.hesuiwenzi{
+    width: 4.26rem;
+    height: 1.43rem;
+    position: absolute;
+    top: 1.28rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.yun_zuo{
+    width: 1.32rem;
+    height: .82rem;
+    position: absolute;
+    top: .24rem;
+    left: .15rem;
+}
+.yun_right{
+    width: 1.59rem;
+    height: 1.15rem;
+    position: absolute;
+    top: .14rem;
+    right: .09rem;
+}
+.zhufu_wenzi{
+    width: 3.47rem;
+    height: .82rem;
+    position: absolute;
+    top: 3.06rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.shanzi{
+    width: 100%;
+    height: 5.97rem;
+    position: absolute;
+    top: 5.35rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.money{
+    width: 6.08rem;
+    height: 5.32rem;
+    position: absolute;
+    top: 2.98rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.hongbao{
+    width: 6.23rem;
+    height: 3.99rem;
+    position: absolute;
+    top: 3.72rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.yun{
+    width: 100%;
+    height: 3.3rem;
+    position: absolute;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.lion{
+    width: 2.77rem;
+    height: 3.27rem;
+    position: absolute;
+    top: 6.78rem;
+    left: .76rem;
+}
+.small_p{
+    width: 2.38rem;
+    height: 3.49rem;
+    position: absolute;
+    top: 6.97rem;
+    right: 1.17rem;
+}
+.go{
+    width: 2.34rem;
+    height: .59rem;
+    position: absolute;
+    bottom: .8rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
