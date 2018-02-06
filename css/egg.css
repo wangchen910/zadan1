@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.jd_bg{
+    width: 100vw;
+    height: 100vh;
+    background: #da0b1b;
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    width: 2.35rem;
+    height: .29rem;
+    position: absolute;
+    top: .18rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.logo img{
+    float: left;
+}
+.dl{
+    width: 1.44rem;
+    height: 1.31rem;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.right_yun{
+    width: 1.7rem;
+    height: 1.14rem;
+    position: absolute;
+    right: .08rem;
+    top:.1rem;
+}
+.small_yun{
+    width: 1.32rem;
+    height: .82rem;
+    position: absolute;
+    top:.86rem;
+    right: 1.88rem;
+}
+.jd_taimian{
+    width: 5.73rem;
+    height: 2.19rem;
+    position: absolute;
+    top:6.83rem;
+    left:0;
+    right:0;
+    margin: auto;
+}
+.jd_yun{
+    width: 100%;
+    height: 2.63rem;
+    position: fixed;
+    bottom: 0;
+    left:0;
+}
+.jd_1{
+    width: 2.05rem;
+    height: 2.67rem;
+    position: relative;
+    float: left;
+    margin-left: .1rem;
+}
+.jd_1 .jd_pic{
+    width: 2.05rem;
+    height: 2.67rem;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.jd_1 .yy{
+    width: 1.22rem;
+    height: .25rem;
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: -.1rem;
+    margin: auto;
+}
+.jd_1 .yy img{
+    float: left;
+}
+#jd{
+    width: 5.73rem;
+    height: 2.67rem;
+    position: absolute;
+    left:0;
+    right: 0;
+    top:5.26rem;
+    margin: auto;
+}
+.jd_zong{
+    width: 5.73rem;
+    height: 2.67rem;
+    position: relative;
+}
+.box{
+    width: 1.67rem;
+    height: 2.17rem;
+    position: absolute;
+}
+
+.jd_2{
+    width: 1.67rem;
+    height: 2.17rem;
+    position: relative;
+}
+.jd_2 .jd2_pic{
+    width: 1.67rem;
+    height: 2.17rem;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.jd_2 .yy2{
+    width: 1rem;
+    height: .2rem;
+    position: absolute;
+    bottom: -.1rem;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.jd_2 .yy2 img{
+    float: left;
+}
+.caidai{
+    width: 100%;
+    height: 8.75rem;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.openegg{
+    width: 4.1rem;
+    height: 2.35rem;
+    position: absolute;
+    top:5.54rem;
+    left:0;
+    right:0;
+    margin: auto;
+    display: none;
+}
+.jinghua{
+    width: 6rem;
+    height: 4.69rem;
+    position: absolute;
+    top:.67rem;
+    left:0;
+    right: 0;
+    margin: auto;
+    display: none;
+}
+.guangxian{
+    width: 5.32rem;
+    height: 5.65rem;
+    position: absolute;
+    top:1.23rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+}
+.anniu{
+    width: 2.58rem;
+    height: .71rem;
+    position: absolute;
+    top: 8.59rem;
+    left:0;
+    right:0;
+    margin: auto;
+}
+
+.box:nth-child(1){
+    top:0;
+    left:.1rem;
+    animation: myfirst 6s infinite;
+    z-index: 2;
+}
+.box:nth-child(2){
+    top:.5rem;
+    left:0;
+    right: 0;
+    margin: auto;
+    animation: mytow 6s infinite;
+    z-index: 2;
+}
+.box:nth-child(3){
+    top:0;
+    right:.1rem;
+    animation: mythree 6s infinite;
+    z-index: 2;
+}
+
+@keyframes myfirst{
+    0% {
+        transform: translate(0,0);
+    }
+    33%{
+        transform:  translate(4rem,0);
+    }
+    66%{
+        transform:  translate(2rem,.5rem);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+}
+@keyframes mytow{
+    0% {
+        transform: translate(0,0);
+    }
+
+    33% {
+        transform:  translate(-2rem,-.5rem);
+    }
+    66%{
+        transform:  translate(2rem,-.5rem);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+}
+@keyframes mythree{
+    0% {
+        transform: translate(0,0);
+    }
+    33% {
+        transform:  translate(-2rem,.5rem);
+    }
+    66%{
+        transform:  translate(-4rem,0);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+}
