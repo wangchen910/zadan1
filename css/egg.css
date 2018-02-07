@@ -184,6 +184,7 @@ img{
     top:0;
     left:.1rem;
     animation: myfirst 6s infinite;
+    animation-timing-function:linear;
     z-index: 2;
 }
 .box:nth-child(2){
@@ -192,12 +193,14 @@ img{
     right: 0;
     margin: auto;
     animation: mytow 6s infinite;
+    animation-timing-function:linear;
     z-index: 2;
 }
 .box:nth-child(3){
     top:0;
     right:.1rem;
     animation: mythree 6s infinite;
+    animation-timing-function:linear;
     z-index: 2;
 }
 
