@@ -25,9 +25,9 @@ window.onload=function () {
             a = 0
         }
     }, 2000)
-    jd1.style.animation="myfirst 6s infinite"
-    jd2.style.animation="mytow 6s infinite"
-    jd3.style.animation="mythree 6s infinite"
+    jd1.style.animation="myfirst 6s infinite linear"
+    jd2.style.animation="mytow 6s infinite linear"
+    jd3.style.animation="mythree 6s infinite linear"
     function go() {
         location.href = "heci.html";
     }
@@ -40,7 +40,7 @@ window.onload=function () {
             Guangxian.style.display = 'block'
             Caidai.style.display = 'block'
             setInterval(go, 1000)
-        }, 300)
+        }, 100)
     }
 
     jd2.onclick = function () {
@@ -51,7 +51,7 @@ window.onload=function () {
             Guangxian.style.display = 'block'
             Caidai.style.display = 'block'
             setInterval(go, 1000)
-        }, 300)
+        }, 100)
     }
     jd3.onclick = function () {
         setInterval(function () {
@@ -61,6 +61,6 @@ window.onload=function () {
             Guangxian.style.display = 'block'
             Caidai.style.display = 'block'
             setInterval(go, 1000)
-        }, 300)
+        }, 100)
     }
 }

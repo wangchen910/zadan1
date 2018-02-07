@@ -12,11 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="egg.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="egg.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/egg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="99" column="14" lean-forward="true" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+            <state relative-caret-position="465">
+              <caret line="84" column="41" lean-forward="true" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -31,18 +31,18 @@
       <file leaf-file-name="egg.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/egg.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="144" column="36" lean-forward="true" selection-start-line="144" selection-start-column="36" selection-end-line="144" selection-end-column="36" />
+            <state relative-caret-position="381">
+              <caret line="214" column="36" lean-forward="true" selection-start-line="214" selection-start-column="36" selection-end-line="214" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="egg.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="egg.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/egg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="769">
-              <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+            <state relative-caret-position="244">
+              <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -58,9 +58,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/heci.html" />
         <option value="$PROJECT_DIR$/css/heci.css" />
-        <option value="$PROJECT_DIR$/js/egg.js" />
-        <option value="$PROJECT_DIR$/css/egg.css" />
         <option value="$PROJECT_DIR$/egg.html" />
+        <option value="$PROJECT_DIR$/css/egg.css" />
+        <option value="$PROJECT_DIR$/js/egg.js" />
       </list>
     </option>
   </component>
@@ -74,7 +74,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
-    <option name="width" value="1942" />
+    <option name="width" value="1934" />
     <option name="height" value="1042" />
   </component>
   <component name="ProjectView">
@@ -116,20 +116,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="砸金蛋" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="砸金蛋" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,18 +233,19 @@
       <updated>1517810701438</updated>
       <workItem from="1517810704519" duration="3090000" />
       <workItem from="1517892667494" duration="37871000" />
-      <workItem from="1517966534828" duration="11730000" />
+      <workItem from="1517966534828" duration="12279000" />
+      <workItem from="1518007294989" duration="1369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52691000" />
+    <option name="totallyTimeSpent" value="54609000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1934" height="1042" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2586393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26301518" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -307,6 +294,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/egg.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="144" column="36" lean-forward="true" selection-start-line="144" selection-start-column="36" selection-end-line="144" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/egg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/egg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/egg.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5229">
           <caret line="249" column="16" lean-forward="true" selection-start-line="249" selection-start-column="16" selection-end-line="249" selection-end-column="16" />
           <folding />
@@ -317,7 +334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -390,7 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -398,30 +413,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2769">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/egg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/egg.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="144" column="36" lean-forward="true" selection-start-line="144" selection-start-column="36" selection-end-line="144" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/egg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="99" column="14" lean-forward="true" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+        <state relative-caret-position="465">
+          <caret line="84" column="41" lean-forward="true" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -429,6 +427,22 @@
             <element signature="n#div#2;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#2;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/egg.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="214" column="36" lean-forward="true" selection-start-line="214" selection-start-column="36" selection-end-line="214" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/egg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
