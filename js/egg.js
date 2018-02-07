@@ -40,7 +40,7 @@ window.onload=function () {
             Guangxian.style.display = 'block'
             Caidai.style.display = 'block'
             setInterval(go, 1000)
-        }, 1500)
+        }, 300)
     }
 
     jd2.onclick = function () {
@@ -51,7 +51,7 @@ window.onload=function () {
             Guangxian.style.display = 'block'
             Caidai.style.display = 'block'
             setInterval(go, 1000)
-        }, 500)
+        }, 300)
     }
     jd3.onclick = function () {
         setInterval(function () {
@@ -61,6 +61,6 @@ window.onload=function () {
             Guangxian.style.display = 'block'
             Caidai.style.display = 'block'
             setInterval(go, 1000)
-        }, 500)
+        }, 300)
     }
 }

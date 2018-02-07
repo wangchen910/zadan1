@@ -52,10 +52,10 @@
             </div>
         </div>
     </div>
-    <div class="caidai top-bottom a-bouncein-forever"><img src="img/caidai.png" alt=""></div>
+    <div class="caidai top-bottom "><img src="img/caidai.png" alt=""></div>
     <div class="openegg"><img src="img/openegg.png" alt=""></div>
-    <div class="guangxian top-bottom a-bouncein-forever"><img src="img/guangxian.png" alt=""></div>
-    <div class="jinghua top-bottom a-bouncein-forever"><img src="img/jinghua.png" alt=""></div>
+    <div class="guangxian top-bottom "><img src="img/guangxian.png" alt=""></div>
+    <div class="jinghua top-bottom "><img src="img/jinghua.png" alt=""></div>
     <div class="anniu a-bouncein"><img src="img/button.png" alt=""></div>
     <p class="hammer cloudBigSmall" id="hammer"><img src="img/chuizi.png" alt=""></p>
 </div>
@@ -79,14 +79,25 @@
             $(".hammer").animate({//锤子动画
                     "top":_this.position().top+325,
                     "left":_this.position().left-125,
-                },30,function(){
-                    $('.resultTip').css({display:'block',top:'10px',left:_this.position().
-                        left,opacity:0});
-                }
+                },30
             );
             $(".hammer img").css({
                 transform:"rotate(90deg)"
             })
+        setInterval(function () {
+            $(".hammer").css({display:"none"})
+        },300)
+        setInterval(function () {
+            $(".caidai img").css({
+                transform:"scale(1)"
+            })
+            $(".jinghua img").css({
+                transform:"scale(1)"
+            })
+            $(".guangxian img").css({
+                transform:"scale(1)"
+            })
+        },350)
     }
 </script>
 </html>

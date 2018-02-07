@@ -140,6 +140,10 @@ img{
     left:0;
     display: none;
 }
+.caidai img{
+    transform:scale(0.2);
+    transition:All 0.4s ease-in-out;
+}
 .openegg{
     width: 4.1rem;
     height: 2.35rem;
@@ -160,6 +164,10 @@ img{
     margin: auto;
     display: none;
 }
+.jinghua img{
+    transform:scale(0.2);
+    transition:All 0.4s ease-in-out;
+}
 .guangxian{
     width: 5.32rem;
     height: 5.65rem;
@@ -169,6 +177,10 @@ img{
     right: 0;
     margin: auto;
     display: none;
+}
+.guangxian img{
+    transform:scale(0.2);
+    transition:All 0.4s ease-in-out;
 }
 .anniu{
     width: 2.58rem;
@@ -256,7 +268,7 @@ img{
     right:0;
     margin: auto;
     z-index: 999;
-    transition: .5s all ease-in;
+    transition: .3s all ease-in;
 }
 .beiguang{
     width: 6.3rem;
@@ -268,5 +280,5 @@ img{
     margin: auto;
 }
 .hammer img{
-    transition: .5s all ease-in;
+    transition: .3s all ease-in;
 }
