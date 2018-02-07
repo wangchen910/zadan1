@@ -60,15 +60,13 @@
     <p class="hammer cloudBigSmall" id="hammer"><img src="img/chuizi.png" alt=""></p>
 </div>
 </body>
-<script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/rem.js"></script>
 <script src="js/egg.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
 <script>
     $(".box").click(function() {
         var posL = $(this).position().left + $(this).width();
         $("#hammer").show().css('left', posL);
-        $(".caidai").addClass(".a-bouncein-forever");
-        $(".caidai").css({'display':'block'})
     })
     $(".box").click(function() {
         $(this).children("div").hide();
@@ -77,15 +75,18 @@
     function eggClick(obj) {
         var _this = obj;
             _this.unbind('click'); //解除click
-            $(".hammer").css({"top":_this.position().top-55,"left":_this.position().left+185});
+            $(".hammer").css({"top":_this.position().top-55,"left":_this.position().left});
             $(".hammer").animate({//锤子动画
                     "top":_this.position().top+325,
-                    "left":_this.position().left
+                    "left":_this.position().left-125,
                 },30,function(){
                     $('.resultTip').css({display:'block',top:'10px',left:_this.position().
-                        left+45,opacity:0});
+                        left,opacity:0});
                 }
             );
+            $(".hammer img").css({
+                transform:"rotate(60deg)"
+            })
     }
 </script>
 </html>

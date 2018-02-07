@@ -5,6 +5,7 @@ var jd=document.querySelector('.jd_zong')
 var Openegg=document.querySelector('.openegg')
 var Jinghua=document.querySelector('.jinghua')
 var Guangxian=document.querySelector('.guangxian')
+var Caidai=document.querySelector('.caidai')
 var a=0;
 setInterval(function () {
     a++;
@@ -26,24 +27,35 @@ setInterval(function () {
 function go(){
     location.href="heci.html";
 }
+
 jd1.onclick=function () {
-    jd.style.display='none';
-    Openegg.style.display='block'
-    Jinghua.style.display='block'
-    Guangxian.style.display='block'
-    setInterval(go,1000)
+    setInterval(function () {
+        jd.style.display='none';
+        Openegg.style.display='block'
+        Jinghua.style.display='block'
+        Guangxian.style.display='block'
+        Caidai.style.display='block'
+        setInterval(go,1000)
+    },1500)
 }
+
 jd2.onclick=function () {
-    jd.style.display='none';
-    Openegg.style.display='block'
-    Jinghua.style.display='block'
-    Guangxian.style.display='block'
-    setInterval(go,1000)
+    setInterval(function () {
+        jd.style.display='none';
+        Openegg.style.display='block'
+        Jinghua.style.display='block'
+        Guangxian.style.display='block'
+        Caidai.style.display='block'
+        setInterval(go,1000)
+    },500)
 }
 jd3.onclick=function () {
-    jd.style.display='none';
-    Openegg.style.display='block'
-    Jinghua.style.display='block'
-    Guangxian.style.display='block'
-    setInterval(go,1000)
+    setInterval(function () {
+        jd.style.display='none';
+        Openegg.style.display='block'
+        Jinghua.style.display='block'
+        Guangxian.style.display='block'
+        Caidai.style.display='block'
+        setInterval(go,1000)
+    },500)
 }

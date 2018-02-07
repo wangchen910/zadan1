@@ -253,7 +253,7 @@ img{
     right:0;
     margin: auto;
     z-index: 999;
-    transition: 1s all;
+    transition: .5s all ease-in;
 }
 .beiguang{
     width: 6.3rem;
@@ -263,4 +263,7 @@ img{
     left:0;
     right: 0;
     margin: auto;
+}
+.hammer img{
+    transition: .5s all ease-in;
 }
