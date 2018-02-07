@@ -138,6 +138,7 @@ img{
     position: absolute;
     top:0;
     left:0;
+    display: none;
 }
 .openegg{
     width: 4.1rem;
@@ -247,8 +248,19 @@ img{
     width: 1.67rem;
     height: 1.82rem;
     position: absolute;
-    top: 5.87rem;
-    right: .34rem;
+    top: 3.3rem;
+    left:0;
+    right:0;
+    margin: auto;
     z-index: 999;
     transition: 1s all;
+}
+.beiguang{
+    width: 6.3rem;
+    height: 4.19rem;
+    position: absolute;
+    top: 3.1rem;
+    left:0;
+    right: 0;
+    margin: auto;
 }

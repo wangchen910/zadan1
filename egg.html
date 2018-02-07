@@ -15,6 +15,7 @@
     <div class="dl"><img src="img/dl.png" alt=""></div>
     <div class="right_yun"><img src="img/right_yun.png" alt=""></div>
     <div class="small_yun"><img src="img/small_yun.png" alt=""></div>
+    <div class="beiguang top-bottom a-bouncein-forever"><img src="img/beiguang.png" alt=""></div>
     <div class="jd_taimian"><img src="img/jd_taimian.png" alt=""></div>
     <div class="jd_yun cloudBigSmall"><img src="img/jd_yun.png" alt=""></div>
     <div id="jd">
@@ -51,11 +52,11 @@
             </div>
         </div>
     </div>
-    <div class="caidai top-bottom"><img src="img/caidai.png" alt=""></div>
+    <div class="caidai top-bottom a-bouncein-forever"><img src="img/caidai.png" alt=""></div>
     <div class="openegg"><img src="img/openegg.png" alt=""></div>
-    <div class="jinghua"><img src="img/jinghua.png" alt=""></div>
-    <div class="guangxian"><img src="img/guangxian.png" alt=""></div>
-    <div class="anniu a-bouncein-forever"><img src="img/button.png" alt=""></div>
+    <div class="guangxian top-bottom a-bouncein-forever"><img src="img/guangxian.png" alt=""></div>
+    <div class="jinghua top-bottom a-bouncein-forever"><img src="img/jinghua.png" alt=""></div>
+    <div class="anniu a-bouncein"><img src="img/button.png" alt=""></div>
     <p class="hammer cloudBigSmall" id="hammer"><img src="img/chuizi.png" alt=""></p>
 </div>
 </body>
@@ -66,6 +67,8 @@
     $(".box").click(function() {
         var posL = $(this).position().left + $(this).width();
         $("#hammer").show().css('left', posL);
+        $(".caidai").addClass(".a-bouncein-forever");
+        $(".caidai").css({'display':'block'})
     })
     $(".box").click(function() {
         $(this).children("div").hide();
@@ -76,8 +79,8 @@
             _this.unbind('click'); //解除click
             $(".hammer").css({"top":_this.position().top-55,"left":_this.position().left+185});
             $(".hammer").animate({//锤子动画
-                    "top":_this.position().top-25,
-                    "left":_this.position().left+125
+                    "top":_this.position().top+325,
+                    "left":_this.position().left
                 },30,function(){
                     $('.resultTip').css({display:'block',top:'10px',left:_this.position().
                         left+45,opacity:0});
