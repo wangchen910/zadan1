@@ -8,6 +8,9 @@ window.onload=function () {
     var Guangxian = document.querySelector('.guangxian')
     var Caidai = document.querySelector('.caidai')
     var a = 0;
+    jd1.style.animation="myfirst 6s infinite"
+    jd2.style.animation="mytow 6s infinite"
+    jd3.style.animation="mythree 6s infinite"
     setInterval(function () {
         a++;
         if (a == 1) {
